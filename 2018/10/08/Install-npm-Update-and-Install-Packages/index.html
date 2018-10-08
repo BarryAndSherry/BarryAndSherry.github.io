@@ -11,7 +11,7 @@
 
     <title>
         
-        WangLi&#39;s Blog
+        Install npm , Update and Install Packages - WangLi&#39;s Blog
         
     </title>
 
@@ -53,7 +53,7 @@
     </div>
     <div class="contents" id="nav-content">
         <ul>
-            <li  class=active >
+            <li >
                 <a href="/">
                     <i class="iconfont icon-shouye1"></i>
                     <span>HOME</span>
@@ -88,6 +88,10 @@
         </ul>
     </div>
     
+        <div id="toc" class="toc-article">
+    
+</div>
+    
 </div>
 
 
@@ -111,68 +115,41 @@
     <div class="index-middle">
         <!-- Main Content -->
         
-<div class="post-preview-container" style="min-height: 576px">
-    
-    <div class="post-preview">
-        <div class="post-time">2018-10-08</div>
-        <div class="post-info">
-            <a href="/2018/10/08/Install-npm-Update-and-Install-Packages/">
-                <h3>
-                    Install npm , Update and Install Packages
-                </h3>
-            </a>
-            <p>
-                
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#default" title="default">default</a>
-                <span>/</span>
-                
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-09-06</div>
-        <div class="post-info">
-            <a href="/2018/09/06/Test-for-hexo-new-blog/">
-                <h3>
-                    Test for hexo new blog
-                </h3>
-            </a>
-            <p>
-                
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#default" title="default">default</a>
-                <span>/</span>
-                
-                
-            </p>
-        </div>
-    </div>
-    
-    <div class="post-preview">
-        <div class="post-time">2018-09-06</div>
-        <div class="post-info">
-            <a href="/2018/09/06/hello-world/">
-                <h3>
-                    Hello World
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-</div>
-<ul class="pager">
-    
-    
-</ul>
 
+
+<div class="post-container">
+    <div class="post-title">
+        Install npm , Update and Install Packages
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">Post：<span>2018-10-08 16:23:37</span></span>
+        
+        <span class="attr">Tags：/
+        
+        <a class="tag" href="/tags/#default" title="default">default</a>
+        <span>/</span>
+        
+        
+        </span>
+        <span class="attr">Visit：<span id="busuanzi_value_page_pv"></span>
+</span>
+</span>
+    </div>
+    <div class="post-content ">
+        <p>First nodejs should be installed on your system:<br><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt <span class="keyword">insatll </span>nodejs</span><br><span class="line">sudo apt <span class="keyword">insatll </span>nodejs-legacy</span><br></pre></td></tr></table></figure></p>
+<p>And NPM of course:<br><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt <span class="keyword">install</span> npm</span><br></pre></td></tr></table></figure></p>
+<p>Change the repository address to taobao:<br><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm config <span class="keyword">set</span> https:<span class="comment">//resistry.taobao.org</span></span><br></pre></td></tr></table></figure></p>
+<p>For the reason that npm often need to be updated, so a updater tool should be installed:<br><figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">npm</span> insatll N -g <span class="comment"># option -g for global</span></span><br></pre></td></tr></table></figure></p>
+<p>To update npm, just run:<br><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">sudo n stable</span></span><br></pre></td></tr></table></figure></p>
+<p>For now everything should be done , you can just using npm to install packages, such as HEXO:<br><figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">npm</span> insatll hexo -g</span><br></pre></td></tr></table></figure></p>
+<p>If anything, contact me by eamil : barry_<a href="mailto:w@foxmail.com" target="_blank" rel="noopener">w@foxmail.com</a> :)</p>
+
+        
+        <div id="comment-container">
+        </div>
+    </div>
+</div>
     </div>
 </div>
 
@@ -219,7 +196,7 @@
     // We expose some of the variables needed by the front end
     window.hexo_search_path = "search.json"
     window.hexo_root = "/"
-    window.isPost = false
+    window.isPost = true
 </script>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="/js/index.js"></script>
